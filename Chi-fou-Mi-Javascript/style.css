@@ -1,0 +1,85 @@
+body{
+    background: lightgoldenrodyellow;
+    font-family: cursive;
+}
+h2{
+    color: seagreen;
+    text-align: center;
+}
+
+#boutonRejouer{
+    margin-left: 600px;
+    margin-top: 10px;
+    width: 320px;
+    height: 45px;
+    background: darkred;
+    color: seagreen;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+#jeu{
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+
+.bloc{
+    width: 600px;
+    height: 550px;
+    border: 1px solid seagreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.casePhoto{
+    width: 256px;
+    height: 256px;
+    margin-top: 25px;
+
+}
+
+#divInterface{
+    margin-top: 20px;
+}
+
+#divIntermediaire{
+    margin-top: 20px;
+    height: 25px;
+}
+
+.points{
+    height: 50px;
+    width: 350px;
+    border: 1px solid seagreen;
+    padding-left: 15px;
+    padding-top: 15px;
+    margin-top: 20px;
+}
+
+.victoire{
+    color: darkred;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+#boutonNouvellePartie{
+    margin-left: 600px;
+    margin-top: 10px;
+    width: 320px;
+    height: 45px;
+    background: darkred;
+    color: seagreen;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+#compteurVictoires{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: darkred;
+}

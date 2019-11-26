@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="Viewport" content="width=device-width, user-scalable=no">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Pierre, Feuille, Ciseaux</h2>
+
+<div id="jeu">
+    <div id="divOrdinateur" class="bloc">
+        <img id="ordinateur" class="casePhoto">
+        <div id="divIntermediaire"></div>
+        <div class="points" id="pointsOrdinateur"></div>
+        <div class="victoire" id="victoireOrdi"></div>
+    </div>
+
+    <div id="divJoueur" class="bloc">
+        <img id="joueur"class="casePhoto">
+
+        <div id="divInterface">
+            <input type="texte" placeholder="p, f, c" style="text-align: center" id="input">
+            <button id="boutonValider">Valider</button>
+        </div>
+        <div class="points" id="pointsJoueur"></div>
+        <div class="victoire" id="victoireJoueur"></div>
+    </div>
+</div>
+
+<div id="compteurVictoires">
+    <div id="compteurVictoireOrdi">Compteur Ordi: </div>
+    <div id="compteurVictoireJoueur">Compteur Joueur: </div>
+</div>
+
+<div>
+    <button id="boutonNouvellePartie">Nouvelle partie</button>
+</div>
+
+<div>
+    <button id="boutonRejouer">Redémarrer</button>
+</div>
+
+
+
+
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
